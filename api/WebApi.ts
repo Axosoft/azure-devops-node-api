@@ -42,7 +42,10 @@ import os = require('os');
 import url = require('url');
 import path = require('path');
 
-const isBrowser: boolean = typeof window !== 'undefined';
+const isElectron: boolean = process && process.versions && process.versions.hasOwnProperty('electron');
+const isElectronWebpage: boolean = isElectron && process.type === 'renderer';
+const isBrowser: boolean = typeof window !== 'undefined' && (!isElectron || isElectronWebpage);
+
 /**
  * Methods to return handler objects (see handlers folder)
  */
