@@ -10,8 +10,8 @@
 
 // Licensed under the MIT license.  See LICENSE file in the project root for full license information.
 
-import * as restm from 'typed-rest-client/RestClient';
-import * as httpm from 'typed-rest-client/HttpClient';
+import * as restm from '@axosoft/typed-rest-client/RestClient';
+import * as httpm from '@axosoft/typed-rest-client/HttpClient';
 import vsom = require('./VsoClient');
 import basem = require('./ClientApiBases');
 import serm = require('./Serialization');

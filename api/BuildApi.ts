@@ -1,4 +1,4 @@
-﻿/*
+/*
  * ---------------------------------------------------------
  * Copyright(C) Microsoft Corporation. All rights reserved.
  * ---------------------------------------------------------
@@ -10,7 +10,7 @@
 
 // Licensed under the MIT license.  See LICENSE file in the project root for full license information.
 
-import * as restm from 'typed-rest-client/RestClient';
+import * as restm from '@axosoft/typed-rest-client/RestClient';
 import vsom = require('./VsoClient');
 import basem = require('./ClientApiBases');
 import VsoBaseInterfaces = require('./interfaces/common/VsoBaseInterfaces');

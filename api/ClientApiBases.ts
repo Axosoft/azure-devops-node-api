@@ -4,8 +4,8 @@
 import vsom = require('./VsoClient');
 import VsoBaseInterfaces = require('./interfaces/common/VsoBaseInterfaces');
 import serm = require('./Serialization');
-import * as rm from 'typed-rest-client/RestClient';
-import * as hm from 'typed-rest-client/HttpClient';
+import * as rm from '@axosoft/typed-rest-client/RestClient';
+import * as hm from '@axosoft/typed-rest-client/HttpClient';
 
 export class ClientApiBase {
     baseUrl: string;
